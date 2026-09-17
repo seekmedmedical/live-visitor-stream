@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Monitor Ao Vivo",
+  "version": "1.0.0",
+  "description": "Mostra quantas pessoas estão no seu site agora e quais páginas elas estão vendo.",
+  "permissions": ["storage", "alarms"],
+  "host_permissions": ["https://*.lovable.app/*"],
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Visitantes online agora",
+    "default_icon": { "128": "icon.png" }
+  },
+  "icons": { "128": "icon.png" }
+}
