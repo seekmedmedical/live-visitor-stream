@@ -1,4 +1,3 @@
-import { createServerFn } from "@tanstack/react-start";
 
 const DEFAULT_PROPERTY_ID = "443939088";
 
