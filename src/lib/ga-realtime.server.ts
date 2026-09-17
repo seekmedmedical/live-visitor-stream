@@ -137,8 +137,7 @@ function demoPayload(reason?: string): RealtimePayload {
 
 const num = (v?: string) => Number(v ?? 0) || 0;
 
-export const getRealtime = createServerFn({ method: "GET" }).handler(
-  async (): Promise<RealtimePayload> => {
+export async function fetchRealtime(): Promise<RealtimePayload> {
     const raw = process.env["GOOGLE_SERVICE_ACCOUNT_JSON"];
     const propertyId = process.env["GA_PROPERTY_ID"] || DEFAULT_PROPERTY_ID;
     if (!raw) return demoPayload();
@@ -223,5 +222,4 @@ export const getRealtime = createServerFn({ method: "GET" }).handler(
       console.error("GA realtime error", error);
       return demoPayload(error instanceof Error ? error.message : "Erro desconhecido");
     }
-  },
-);
+}
