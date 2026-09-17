@@ -1,14 +1,16 @@
-# Welcome to your Lovable project
+# Live Visitor Stream
+
+Gostaria de criar algo como um widget ou para o google chrome ou para o windows (afim de demonstrar o ao vivo do google analytics) ou quantas pessoas ou se puder quais paginas a pessoa está naquele momento, pode ser uma extensão do navegador ou qualquer coisa assim, desde que eu consiga monitorar o dia inteiro o fluxo de visitantes
 
 This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/7b7132f2-9098-4998-bcdc-85280f1c6b29).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +22,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
